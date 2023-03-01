@@ -3,7 +3,10 @@
   - Las paginas de modificar contenido: Modificar alumno/profesor/curso/materia (Hecho)
   - Las pagians de borrar contenido: Borrar alumno/profesor/curso/materia
   
-2) En la pagina principal (centro.html) hacer que se muestren todos los datos de las tablas de la base de datos.
+2) En la pagina principal (centro.html) hacer que se muestren todos los datos de las tablas de la base de datos. Mi idea sería la de hacer una copia del fichero 
+"centro.html" donde, al darle aun boton en la pagina principal con un texto como "Mostrar datos", se vean varias tablas con los datos de la BBDD (copiamos centro.html
+para que parezca la misma página, aunque sera otra distinta a efectos practicos, se vera igual) (Si quieres ver mas o menos una idea de como hacerlo tienes un ejemplo
+en la creada por el peque "p_crud" dandole al botón "amosar datos")
 
 3) Cambiar los botones de los formularios de Altas y Modificaciones (mas tarde tambien de Borrar) para que sean iguales que los del fichero login.html (o index.html 
 que es su nombre aqui en github). (Hay un ejemplo en Modificar Datos/Modificar Alumno)

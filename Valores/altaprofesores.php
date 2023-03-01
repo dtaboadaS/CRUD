@@ -1,13 +1,12 @@
 <html>
   <head>
-        <title>Novo Profesor</title>
+        <title>Nuevo Profesor</title>
     </head>
     <body>
-	<h1 class="center">Estado do rexistro dun novo profesor</h1>
+	<h1 class="center">Estado del registro de un nuevo profesor</h1>
 	<?php
 		include '../bbdd/conector.php';
 		
-// Recoge los datos del formulario
 $Cod_Profesor = $_POST['Cod_Profesor'];
 $DNI = $_POST['DNI'];
 $Nombre = $_POST['Nombre'];
@@ -17,7 +16,6 @@ $Localidad = $_POST['Localidad'];
 $Imparte = $_POST['Imparte'];
 $telefono = $_POST['telefono'];
 
-// Inserto los datos en BBDD
 	    	$insert_profesor = "INSERT INTO profesores (Cod_Profesor, DNI, Nombre, Apellido1, Apellido2, Localidad, Imparte, telefono) VALUES ('$Cod_Profesor', '$DNI', '$Nombre', '$Apellido1', '$Apellido2', '$Localidad', '$Imparte', '$telefono')";
 
 if ($result = mysqli_query($conector, $insert_profesor)) {
@@ -26,7 +24,7 @@ if ($result = mysqli_query($conector, $insert_profesor)) {
 	    echo ("Non se puido rexistrar o alumno/a -> ". mysqli_error($conector))."<br><br>";
 	}
 ?>
-	<a href="altaalumnosform.html">Volver al Formulario</a><br><br>
+	<a href="altaprofesores.html">Volver al Formulario</a><br><br>
 	<a href=".././centro.html">Volver al Inicio</a>
     </body>
 </html>

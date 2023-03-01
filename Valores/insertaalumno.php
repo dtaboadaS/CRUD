@@ -1,13 +1,12 @@
 <hmtl>
 	<head>
-        <title>Novo Alumno</title>
+        <title>Nuevo Alumno</title>
     </head>
     <body>
 	<h1 class="center">Estado del registro de un nuevo alumno</h1>
 	<?php
 		include '../bbdd/conector.php';
 
-		// Recollo os datos enviados a través do formulari 
 		  $Cod_Alumno = $_POST["Cod_Alumno"];
 		  $DNI = $_POST["DNI"];
 		  $Nombre = $_POST["Nombre"];
@@ -17,7 +16,6 @@
 		  $Cursa = $_POST["Cursa"];
 		  $Telefono = $_POST["Telefono"];
 
-		// Inserto los datos en BBDD
 	    	$insert_alumno = "INSERT INTO alumnos (Cod_Alumno, DNI, Nombre, Apellido1, Apellido2, Localidad, Cursa, Telefono) VALUES ('$Cod_Alumno', '$DNI', '$Nombre', '$Apellido1', '$Apellido2', '$Localidad', '$Cursa', '$Telefono')";
 
 
@@ -28,7 +26,7 @@
 	}
 	    
 	?>
-	<a href="altaalumnosform.html">Volver al Formulario</a><br><br>
+	<a href="altaalumnos.html">Volver al Formulario</a><br><br>
 	<a href=".././centro.html">Volver al Inicio</a>
     </body>
 </html>

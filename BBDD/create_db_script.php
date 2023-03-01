@@ -11,7 +11,7 @@
 	    //conexión con la BBDD
 	    $conector = mysqli_connect(HOST, USER, PASSWORD) or die("No se pudo establecer conexión");
 
-	    //Sy hay conexión lanzo queries de creación de bases de datos y tablas
+	    //Si hay conexión lanzo queries de creación de bases de datos y tablas
 
 	    if (!mysqli_connect_errno() && $conector) {
 	        echo "Conexión creada correctamente. <br>";
@@ -35,7 +35,6 @@
 	    }
 
 	    // Crear tablas
-		//Tabla curso primero, para poder después establecer la relación Foreign Key correctamente:
     		$tabla_alumnos = "CREATE TABLE alumnos (
 							Cod_Alumno INT NOT NULL,
 							DNI VARCHAR(9) NOT NULL,
@@ -57,9 +56,6 @@
 		} else {
 		    echo "No se ha podido crear la tabla.<br>". " Error: " . mysqli_error($conector)."<br/>";
 		}
-		
-
-		// Táboa alumnos
     		$tabla_profesores = "CREATE TABLE profesores (
 								Cod_Profesor INT NOT NULL,
 								DNI VARCHAR(9) NOT NULL,
@@ -82,8 +78,6 @@
 		} else {
 		    echo "No se ha podido crear la tabla.<br>". " Error: " . mysqli_error($conector)."<br/>";
 		}
-
-		// Táboa para as notas
     		$tabla_materias = "CREATE TABLE materias (
 									Cod_Materia INT NOT NULL,
 									Materia VARCHAR(65) NOT NULL,
@@ -99,9 +93,6 @@
 		} else {
 		    echo "No se ha podido crear la tabla.<br>". " Error: " . mysqli_error($conector)."<br/>";
 		}
-
-
-		// Tabla para las asignaturas
     		$tabla_cursos = "CREATE TABLE cursos (
 								Cod_Curso INT NOT NULL,
 								Nombre VARCHAR(50) NOT NULL,
@@ -116,8 +107,6 @@
 		} else {
 		    echo "No se ha podido crear la tabla.<br>". " Error: " . mysqli_error($conector)."<br/>";
 		}
-
-		// Tabla para los usuarios de la BBDD
     		$tabla_usuarios = "CREATE TABLE usuarios (
 								usuario VARCHAR(50) NOT NULL,
 								password VARCHAR(50) NOT NULL,
@@ -140,6 +129,6 @@
 	mysqli_close($conector); 
 
 	?>
-			<a href=".././login.html">Volver al Login</a><br><br>
+			<a href="../index.html">Volver al Login</a><br><br>
     </body>
 </html>

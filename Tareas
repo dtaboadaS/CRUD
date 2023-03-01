@@ -14,6 +14,9 @@ UPDATE sera un CREATE TABLE IF NOT EXISTS con los diferentes campos (puede copia
 5) Añadir botones de "Volver" donde sea necesario si no los hay ya creados.
 
 6) Modificar archivos de altas .php, hay que cambiar el texto que aperece en gallego y borrar los comentarios (no son necesarios), ademas algunos links que redirigen al
-formulario anterior no funcionan o redirigen a otros formularios.
+formulario anterior no funcionan o redirigen a otros formularios (algunos redirigen a "altaalumnosform.html" y el archivo correcto es "altaalumnos.html". 
+Comprobar tambien los links de los botones de "Añadir Datos" algunos estan mal (puede que ya esten arreglados, pero comprobar igual). 
 
-7) Modificar el apartado estético de las paginas en general añadiendo contenido.
+7) Repasar la mayoria de ficheros, cambiar aquello que esta en gallego y borrar los comentarios (da mucho el cante que es copy/paste, ya sea del peque o de ChatGPT)
+
+8) Modificar el apartado estético de las paginas en general añadiendo contenido.

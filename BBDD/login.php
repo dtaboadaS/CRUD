@@ -18,10 +18,10 @@
 		
 		if($nr == 1)
 		{
-			header("Location: ../centro.html");
+			echo "<script> alert('Bienvenido $nombre'); window.location='../centro.html' </script>";
 		}
 		else if ($nr == 0)
 		{
-			echo "No ingreso";
+			echo "<script> alert('El usuario $nombre no existe o el password es incorrecto'); window.location='../index.html' </script>";
 		}
 ?>

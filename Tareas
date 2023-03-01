@@ -1,7 +1,7 @@
-1) Cambiar etiqueta <title> de todas las páginas para que concuerden con el contenido. 
-  - Las paginas de añadir contenido: Añadir alumno/profesor/curso/materia (Hecho)
-  - Las paginas de modificar contenido: Modificar alumno/profesor/curso/materia (Hecho)
-  - Las pagians de borrar contenido: Borrar alumno/profesor/curso/materia
+1) Cambiar etiqueta <title> de todas las páginas para que concuerden con el contenido. Tambien el texto que aperece al inicio de la página encima de los recuadros.
+  - Las paginas de añadir contenido: Añadir Alumno/Profesor/Curso/Materia (Hecho)
+  - Las paginas de modificar contenido: Modificar Alumno/Profesor/Curso/Materia (Hecho)
+  - Las pagians de borrar contenido: Borrar Alumno/Profesor/Curso/Materia
   
 2) En la pagina principal (centro.html) hacer que se muestren todos los datos de las tablas de la base de datos. Mi idea sería la de hacer una copia del fichero 
 "centro.html" donde, al darle aun boton en la pagina principal con un texto como "Mostrar datos", se vean varias tablas con los datos de la BBDD (copiamos centro.html

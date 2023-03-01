@@ -22,4 +22,8 @@ Comprobar tambien los links de los botones de "Añadir Datos" algunos estan mal 
 
 7) Repasar la mayoria de ficheros, cambiar aquello que esta en gallego y borrar los comentarios (da mucho el cante que es copy/paste, ya sea del peque o de ChatGPT)
 
-8) Modificar el apartado estético de las paginas en general añadiendo contenido.
+8) Cambiar el tamaño de los recuadros de los formularios, estos son un poco pequeños y no queda bien, es sencilo de cambiar solo hay que escribir dentro de la etiqueta
+"input" esto: style="height: 30px;" (Se puede cambiar el tamaño pero creo que 30 queda bien) (Podria tambien mirarse de cambiar el tamaño de letra, pero no se aun
+como se hace dentro de los recuadros.
+
+9) Modificar el apartado estético de las paginas en general añadiendo contenido.

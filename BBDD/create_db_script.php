@@ -129,6 +129,7 @@
 	mysqli_close($conector); 
 
 	?>
-			<a href="../index.html">Volver al Login</a><br><br>
+	<br>    		
+	<a href="../index.html">Volver al Login</a><br><br>
     </body>
 </html>

@@ -6,6 +6,8 @@
 para que parezca la misma página, aunque sera otra distinta a efectos practicos, se vera igual) (Si quieres ver mas o menos una idea de como hacerlo tienes un ejemplo
 en la creada por el peque "p_crud" dandole al botón "amosar datos")
 
+3) El registro.php devuelve error si el usuario ya existe
+
 4) Crear un formulario para creación de tablas en la BBDD. Será muy parecido a los de alta o modificación, pero la consulta de MySQL en lugar de un INSERT o un
 UPDATE sera un CREATE TABLE IF NOT EXISTS con los diferentes campos (puede copiarse código del script de creación de la base de datos)
 

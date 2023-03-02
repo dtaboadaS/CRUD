@@ -3,7 +3,7 @@
         <title>Nuevo Curso</title>
     </head>
     <body>
-	<h1 class="center">Estado del registro de un nuevovo curso</h1>
+	<h1 class="center">Estado del registro de un nuevo curso</h1>
 	<?php
 		include '../bbdd/conector.php';
 

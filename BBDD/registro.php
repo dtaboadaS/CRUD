@@ -19,8 +19,8 @@
 		{
 			echo "<script> alert('Usuario $nombre registrado'); window.location='../index.html' </script>";
 		}
-		else if ($nr == 0)
+		else
 		{
-			echo "Error: ".$sql."<br>".mysql_error($conn);;
+			echo "Error: El usuario ya existe";
 		}
 ?>

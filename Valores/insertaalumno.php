@@ -20,7 +20,7 @@
 
 
 	if ($result = mysqli_query($conector, $insert_alumno)) {
-	    echo "<h3 class='center'>Alumno " . $Nombre ." creado correctamente."."<br></h3>";		    
+	    echo "<h3 class='center'>Alumno/a " . $Nombre ." creado correctamente."."<br></h3>";		    
 	} else {
 	    echo ("No se pudo registrar al alumno/a -> ". mysqli_error($conector))."<br><br>";
 	}

@@ -17,7 +17,7 @@
 		
 		if(mysqli_query($conn,$sqlgrabar))
 		{
-			echo "<script> alert('Usuario $nombre registrado'); window.location='../login.html' </script>";
+			echo "<script> alert('Usuario $nombre registrado'); window.location='../index.html' </script>";
 		}
 		else if ($nr == 0)
 		{

@@ -18,7 +18,7 @@
 	if ($result = mysqli_query($conector, $insert_materia)) {
 	    echo "<h3 class='center'>Materia " . $Materia ." creado correctamente."."<br></h3>";		    
 	} else {
-	    echo ("Non se puido rexistrar a materia -> ". mysqli_error($conector))."<br><br>";
+	    echo ("No se pudo registrar la materia -> ". mysqli_error($conector))."<br><br>";
 	}
 	    
 	?>

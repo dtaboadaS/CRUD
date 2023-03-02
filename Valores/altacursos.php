@@ -23,7 +23,7 @@
 	}
 	    
 	?>
-	<a href="altaalumnosform.html">Volver al Formulario</a><br><br>
+	<a href="altacursos.html">Volver al Formulario</a><br><br>
 	<a href=".././centro.html">Volver al Inicio</a>
     </body>
 </html>

@@ -24,7 +24,7 @@
 	}
 	    
 	?>
-	<a href="altaalumnosform.html">Volver al Formulario</a><br><br>
+	<a href="altamaterias.html">Volver al Formulario</a><br><br>
 	<a href=".././centro.html">Volver al Inicio</a>
     </body>
 </html>

@@ -26,9 +26,9 @@ $resultado = mysqli_query($conector, $consulta);
 
 // Verificar si la consulta fue exitosa
 if ($resultado) {
-  echo "Los datos del curso se han modificado correctamente.";
+  echo "Los datos del profesor se han modificado correctamente.";
 } else {
-  echo "Ha ocurrido un error al modificar los datos del curso.";
+  echo "Ha ocurrido un error al modificar los datos del profesor.";
 }
 
 // Cerrar la conexión con la base de datos

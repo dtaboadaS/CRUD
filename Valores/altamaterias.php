@@ -1,19 +1,17 @@
 <hmtl>
 	<head>
-        <title>Nova Materia</title>
+        <title>Nueva Materia</title>
     </head>
 	
     <body>
-	<h1 class="center">Estado do rexistro dunha nova materia</h1>
+	<h1 class="center">Estado del registro de una nueva materia</h1>
 	<?php
 		include '../bbdd/conector.php';
 
-		// Recollo os datos enviados a través do formulari 
 		  $Cod_Materia = $_POST["Cod_Materia"];
 		  $Horas = $_POST["Horas"];
 		  $Materia = $_POST["Materia"];
-		  
-		// Inserto los datos en BBDD
+
 	    	$insert_materia = "INSERT INTO materias (Cod_Materia, Materia, Horas) VALUES ('$Cod_Materia', '$Materia', '$Horas')";
 
 

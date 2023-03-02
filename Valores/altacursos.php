@@ -1,18 +1,16 @@
 <hmtl>
 	<head>
-        <title>Novo Curso</title>
+        <title>Nuevo Curso</title>
     </head>
     <body>
-	<h1 class="center">Estado do rexistro dun novo curso</h1>
+	<h1 class="center">Estado del registro de un nuevovo curso</h1>
 	<?php
 		include '../bbdd/conector.php';
 
-		// Recollo os datos enviados a través do formulario
 		  $Cod_Curso = $_POST["Cod_Curso"];
 		  $Inicio_Curso = $_POST["Inicio_Curso"];
 		  $Nombre = $_POST["Nombre"];
 		  
-		// Inserto los datos en BBDD
 	    	$insert_curso = "INSERT INTO cursos (Cod_Curso, Inicio_Curso, Nombre) VALUES ('$Cod_Curso', '$Inicio_Curso', '$Nombre')";
 
 

@@ -6,9 +6,9 @@
 	
 	
     <?php include 'conector.php'; ?>
-
+	
     <body>
-
+	<a href="../centro.html">Volver al inicio</a>
 	<?php
 	if ($estado_de_la_conexion == 0){ 	
 		echo '<h1 class="center">Datos por categoría</h1></br>';
@@ -23,6 +23,7 @@
 	
 
 	 ?>
-
+	<br>
+	<a href="../centro.html">Volver al inicio</a>
     </body>
 </html>

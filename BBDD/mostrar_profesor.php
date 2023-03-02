@@ -1,4 +1,4 @@
-	<h2 class="center">Profesorado do centro</h2></br>
+	<h2 class="center">Profesorado del centro</h2></br>
 
 		<table id="alumnado">
     	<tr class="hover">

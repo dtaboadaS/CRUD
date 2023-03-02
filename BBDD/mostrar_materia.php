@@ -1,4 +1,4 @@
-	<h2 class="center">Materia del cerntro</h2></br>
+	<h2 class="center">Materia del centro</h2></br>
 
 		<table id="alumnado">
     	<tr>

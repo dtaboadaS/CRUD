@@ -1,7 +1,7 @@
 	<h2 class="center">Cursos del centro</h2></br>
 
 		<table id="alumnado">
-    	<tr class="dropdown">
+    	<tr>
 			<th> Cod_Curso </th>
 			<th> Inicio_Curso </th>
 			<th> Nombre </th>

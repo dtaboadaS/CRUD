@@ -1,15 +1,10 @@
 1) Cambiar etiqueta <title> de todas las páginas para que concuerden con el contenido. Tambien el texto que aperece al inicio de la página encima de los recuadros.
-  - Las paginas de añadir contenido: Añadir Alumno/Profesor/Curso/Materia (Hecho)
-  - Las paginas de modificar contenido: Modificar Alumno/Profesor/Curso/Materia (Hecho)
   - Las pagians de borrar contenido: Borrar Alumno/Profesor/Curso/Materia
   
 2) En la pagina principal (centro.html) hacer que se muestren todos los datos de las tablas de la base de datos. Mi idea sería la de hacer una copia del fichero 
 "centro.html" donde, al darle aun boton en la pagina principal con un texto como "Mostrar datos", se vean varias tablas con los datos de la BBDD (copiamos centro.html
 para que parezca la misma página, aunque sera otra distinta a efectos practicos, se vera igual) (Si quieres ver mas o menos una idea de como hacerlo tienes un ejemplo
 en la creada por el peque "p_crud" dandole al botón "amosar datos")
-
-3) Cambiar los botones de los formularios de Altas y Modificaciones (mas tarde tambien de Borrar) para que sean iguales que los del fichero index.html). 
-(Hay un ejemplo en Modificar Datos/Modificar Alumno)
 
 4) Crear un formulario para creación de tablas en la BBDD. Será muy parecido a los de alta o modificación, pero la consulta de MySQL en lugar de un INSERT o un
 UPDATE sera un CREATE TABLE IF NOT EXISTS con los diferentes campos (puede copiarse código del script de creación de la base de datos)
@@ -21,9 +16,5 @@ formulario anterior no funcionan o redirigen a otros formularios (algunos rediri
 Comprobar tambien los links de los botones de "Añadir Datos" algunos estan mal (puede que ya esten arreglados, pero comprobar igual). 
 
 7) Repasar la mayoria de ficheros, cambiar aquello que esta en gallego y borrar los comentarios (da mucho el cante que es copy/paste, ya sea del peque o de ChatGPT)
-
-8) Cambiar el tamaño de los recuadros de los formularios, estos son un poco pequeños y no queda bien, es sencilo de cambiar solo hay que escribir dentro de la etiqueta
-"input" esto: style="height: 30px;" (Se puede cambiar el tamaño pero creo que 30 queda bien) (Podria tambien mirarse de cambiar el tamaño de letra, pero no se aun
-como se hace dentro de los recuadros.
 
 9) Modificar el apartado estético de las paginas en general añadiendo contenido.

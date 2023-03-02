@@ -6,7 +6,7 @@
 	<h1 class="center">Cambio de datos de alumno</h1>
 <?php
 // Establecer la conexión con la base de datos
-$conexion = mysqli_connect("localhost", "usuario", "abc123.", "universidad");
+include '../bbdd/conector.php';
 
 // Obtener los datos del formulario
 $Cod_Alumno = $_POST["Cod_Alumno"];

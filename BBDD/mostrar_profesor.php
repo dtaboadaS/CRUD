@@ -1,7 +1,7 @@
 	<h2 class="center">Profesorado del centro</h2></br>
 
 		<table id="alumnado">
-    	<tr class="hover">
+    	<tr>
 			<th> Cod_Profesor </th>
 			<th> DNI </th>
 			<th> Nombre </th>

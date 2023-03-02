@@ -19,9 +19,9 @@ $telefono = $_POST['telefono'];
 	    	$insert_profesor = "INSERT INTO profesores (Cod_Profesor, DNI, Nombre, Apellido1, Apellido2, Localidad, Imparte, telefono) VALUES ('$Cod_Profesor', '$DNI', '$Nombre', '$Apellido1', '$Apellido2', '$Localidad', '$Imparte', '$telefono')";
 
 if ($result = mysqli_query($conector, $insert_profesor)) {
-	    echo "<h3 class='center'>Profesor " . $Nombre ." creado correctamente."."<br></h3>";		    
+	    echo "<h3 class='center'>Profesor/a " . $Nombre ." creado correctamente."."<br></h3>";		    
 	} else {
-	    echo ("Non se puido rexistrar o alumno/a -> ". mysqli_error($conector))."<br><br>";
+	    echo ("No se pudo registrar al profesor/a -> ". mysqli_error($conector))."<br><br>";
 	}
 ?>
 	<a href="altaprofesores.html">Volver al Formulario</a><br><br>

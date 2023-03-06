@@ -7,7 +7,7 @@
 	
     <?php include 'conector.php'; ?>
 	
-    <body>
+    <body bgcolor="#959595">
 	<a href="../centro.html">Volver al inicio</a>
 	<?php
 	if ($estado_de_la_conexion == 0){ 	
